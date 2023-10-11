@@ -1,42 +1,9 @@
-# PROJECT DESCRIPTION
+[mermaid-history-2023-10-11-004319.json](https://github.com/ArtNicke/java_project_iphone7/files/12864548/mermaid-history-2023-10-11-004319.json)# PROJECT DESCRIPTION
 
 Project developed during a Java bootcamp with the goal of creating a fully functional smartphone with a web browser and a music player.
 
 # UML diagram
-classDiagram
-  class iPhone {
-    - musicPlayer: MusicPlayer
-    - phone: Phone
-    - browser: InternetBrowser
-    + playMusic()
-    + pauseMusic()
-    + selectMusic()
-    + makeCall()
-    + answerCall()
-    + startVoiceRecording()
-    + displayPage()
-    + addNewTab()
-    + updatePage()
-  }
 
-  class MusicPlayer {
-    + playMusic()
-    + pauseMusic()
-    + selectMusic()
-  }
 
-  class Phone {
-    + makeCall()
-    + answerCall()
-    + startVoiceRecording()
-  }
+![mermaid-diagram-2023-10-11-034710](https://github.com/ArtNicke/java_project_iphone7/assets/134013548/8a7323e6-f526-4128-b8ae-aad811fdab44)
 
-  class InternetBrowser {
-    + displayPage()
-    + addNewTab()
-    + updatePage()
-  }
-
-  iPhone --> MusicPlayer: musicPlayer
-  iPhone --> Phone: phone
-  iPhone --> InternetBrowser: browser
